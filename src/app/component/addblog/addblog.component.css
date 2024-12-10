@@ -1,0 +1,35 @@
+/* Reduce button size */
+.small-button {
+    font-size: 12px; 
+    padding: 4px 10px; 
+    min-width: 64px; 
+  }
+  
+  .left-aligned-actions {
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  
+
+
+  /* Position the close icon at the top-right */
+.dialog-title {
+  display: flex;              /* Flex layout for title and icon */
+  justify-content: space-between; /* Space between title and icon */
+  align-items: center;        /* Center-align the content vertically */
+  margin: 0;                  /* Remove default margin from title */
+}
+
+/* Style the close icon button */
+.close-icon {
+    color: #000;                /* Set icon color */
+    font-size: 16px;            /* Set initial font size */
+    transform: scale(0.7);      /* Reduce the size by scaling */
+    margin: -8px;               
+}
+
+.close-icon:hover {
+  color: #f44336;             /* Change color on hover */
+}
+
+  

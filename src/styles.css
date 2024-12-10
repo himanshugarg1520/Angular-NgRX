@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.green-snakbar{
+    background: green !important;
+}
+
+.green-snakbar button{
+    background-color: green;
+    color: white !important;
+    border: none;
+}
+
+.red-snakbar{
+    background: red;
+    color: white;
+}
+
+.red-snakbar button{
+    background-color: red;
+    color: white !important;
+    border: none
+}
